@@ -1,0 +1,11 @@
+[package]
+name = "granules-examples"
+version = "0.1.0"
+authors = ["Dinesh A <adepu.dinesh.a@gmail.com>"]
+
+[dependencies]
+granules-rs = { path = "../granules-rs" }
+
+[[bin]]
+name = "two_particles_tension"
+path = "src/two_particles_tension.rs"
